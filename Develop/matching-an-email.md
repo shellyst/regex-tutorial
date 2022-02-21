@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Matching An Email - Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+This tutorial's purpose is to explain the use of regex, looking at the expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. This expression is used in applications requiring validation of emails, such as with MongoDB.
 
 ## Summary
 
@@ -24,7 +24,11 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Anchors don't match any characters at all, but are instead intended to identify the start and end of a regular expression string. In Regex, `^` is the symbol that indicates the beginning of the string. Similarily, `$` is the symbol that indicates the end of the string.
+
 ### Quantifiers
+
+Quantifiers
 
 ### OR Operator
 
